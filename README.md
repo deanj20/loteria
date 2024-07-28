@@ -1,4 +1,4 @@
-```markdown
+
 # Loteria Game
 
 Welcome to my Loteria game built in Python! This project demonstrates the capabilities of ChatGPT to write code and create graphics. Loteria has always been an interesting game for me, and I always looked forward to playing it in Spanish class.
@@ -27,35 +27,35 @@ This Loteria game is built using Flask for the backend and Socket.IO for real-ti
 ### Installation
 
 1. **Clone the repository**:
-   ```bash
+   \`\`\`bash
    git clone https://github.com/yourusername/loteria-game.git
    cd loteria-game
-   ```
+   \`\`\`
 
 2. **Create and activate a virtual environment**:
-   ```bash
+   \`\`\`bash
    python3 -m venv .venv
    source .venv/bin/activate
-   ```
+   \`\`\`
 
 3. **Install the dependencies**:
-   ```bash
+   \`\`\`bash
    pip install -r requirements.txt
-   ```
+   \`\`\`
 
 4. **Generate placeholder images**:
-   ```bash
+   \`\`\`bash
    python3 frontend/images/cards/generate_cards.py
-   ```
+   \`\`\`
 
 5. **Run the application**:
-   ```bash
+   \`\`\`bash
    python3 backend/app.py
-   ```
+   \`\`\`
 
 ### Running the Game
 
-1. Open your browser and go to `http://localhost:5000`.
+1. Open your browser and go to \`http://localhost:5000\`.
 2. Start a new game and join using different browser windows or tabs.
 3. Play the game by calling cards and marking them on your card.
 
@@ -75,6 +75,4 @@ The goal is to make 54 custom cards using ChatGPT's image-building capability. T
 ---
 
 Enjoy the game and happy playing!
-```
 
-Feel free to customize the repository URL, add more sections, or make any other changes as you see fit.
