@@ -1,5 +1,3 @@
-Here's a `README.md` based on your description:
-
 ```markdown
 # Loteria Game
 
