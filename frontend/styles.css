@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#game {
+    position: relative;
+}
+
+#player-card {
+    display: grid;
+    grid-template-columns: repeat(4, 150px); /* Increased width */
+    grid-gap: 5px;  /* Reduced gap */
+    justify-content: center;
+    margin: 20px auto;
+}
+
+#player-card img {
+    width: 150px;  /* Increased width */
+    height: 225px; /* Increased height */
+    cursor: pointer; /* Add a pointer cursor for interactive images */
+}
+
+#player-card img.marked {
+    border: 5px solid red; /* Highlight marked cards */
+}
+
+#called-card-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: center; /* Center the button under the image */
+}
+
+#called-card img {
+    width: 250px;  /* Increased width */
+    height: 375px; /* Increased height */
+}
+
+#call-card {
+    margin-top: 10px; /* Add some margin between the image and button */
+}
+
