@@ -27,31 +27,31 @@ This Loteria game is built using Flask for the backend and Socket.IO for real-ti
 ### Installation
 
 1. **Clone the repository**:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/loteria-game.git
    cd loteria-game
-   \`\`\`
+   ```
 
 2. **Create and activate a virtual environment**:
-   \`\`\`bash
+   ```bash
    python3 -m venv .venv
    source .venv/bin/activate
-   \`\`\`
+   ```
 
 3. **Install the dependencies**:
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 4. **Generate placeholder images**:
-   \`\`\`bash
+   ```bash
    python3 frontend/images/cards/generate_cards.py
-   \`\`\`
+   ```
 
 5. **Run the application**:
-   \`\`\`bash
+   ```bash
    python3 backend/app.py
-   \`\`\`
+   ```
 
 ### Running the Game
 
